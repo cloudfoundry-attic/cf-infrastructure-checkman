@@ -1,0 +1,4 @@
+#- consul
+create-final-release: concourse.check https://mega.ci.cf-app.com consul create-final-release
+merge-master-into-develop: concourse.check https://mega.ci.cf-app.com consul merge-master-into-develop
+

@@ -1,0 +1,4 @@
+#- misc
+mega-ci-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci mega-ci-docker-image
+mega-ci-unit-tests: concourse.check https://mega.ci.cf-app.com mega-ci mega-ci-unit-tests
+
