@@ -1,0 +1,2 @@
+#- yagnats
+yagnats: travis.check cloudfoundry yagnats
