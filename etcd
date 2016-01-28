@@ -1,6 +1,5 @@
 #- etcd
 test-etcd: concourse.check https://mega.ci.cf-app.com etcd test-etcd
-clean-deployment: concourse.check https://mega.ci.cf-app.com etcd clean-deployment
 create-final-release: concourse.check https://mega.ci.cf-app.com etcd create-final-release
 merge-master-into-develop: concourse.check https://mega.ci.cf-app.com etcd merge-master-into-develop
 deploy-with-cf: concourse.check https://mega.ci.cf-app.com etcd deploy-with-cf
