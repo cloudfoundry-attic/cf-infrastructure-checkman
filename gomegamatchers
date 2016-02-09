@@ -1,0 +1,3 @@
+#- gomegamatchers
+test-gomegamatchers: concourse.check https://mega.ci.cf-app.com gomegamatchers test-gomegamatchers
+

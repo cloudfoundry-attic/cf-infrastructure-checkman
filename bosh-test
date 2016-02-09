@@ -1,0 +1,3 @@
+#- bosh-test
+test-bosh-test: concourse.check https://mega.ci.cf-app.com bosh-test test-bosh-test
+

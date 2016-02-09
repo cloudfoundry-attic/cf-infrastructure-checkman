@@ -1,0 +1,3 @@
+#- destiny
+test-destiny: concourse.check https://mega.ci.cf-app.com destiny test-destiny
+
