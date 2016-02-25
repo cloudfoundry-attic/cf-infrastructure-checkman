@@ -1,5 +1,6 @@
 #- consul
 deploy-bosh-lite-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-bosh-lite-manifests
+deploy-aws-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-aws-manifests
 test-consul: concourse.check https://mega.ci.cf-app.com consul test-consul
 deploy-with-cf: concourse.check https://mega.ci.cf-app.com consul deploy-with-cf
 test-with-cf: concourse.check https://mega.ci.cf-app.com consul test-with-cf
