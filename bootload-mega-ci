@@ -1,0 +1,3 @@
+#- bootload-mega-ci
+deploy-mega-ci-bosh: concourse.check https://mega.ci.cf-app.com bootload-mega-ci deploy-mega-ci-bosh
+

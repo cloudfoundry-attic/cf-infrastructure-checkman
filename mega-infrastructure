@@ -1,3 +1,0 @@
-#- infrastructure
-deploy-mega-ci-bosh: concourse.check https://mega.ci.cf-app.com infrastructure deploy-mega-ci-bosh
-
