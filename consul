@@ -1,5 +1,5 @@
 #- consul
-check-consul-git-submodules: concourse.check https://mega.ci.cf-app.com consul check-consul-git-submodules
+check-git-submodules: concourse.check https://mega.ci.cf-app.com consul check-git-submodules
 deploy-bosh-lite-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-bosh-lite-manifests
 deploy-aws-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-aws-manifests
 test-consul: concourse.check https://mega.ci.cf-app.com consul test-consul
