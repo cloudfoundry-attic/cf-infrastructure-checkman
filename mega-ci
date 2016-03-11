@@ -1,8 +1,8 @@
 #- misc
-mega-ci-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci mega-ci-docker-image
-destiny-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci destiny-docker-image
-gomegamatchers-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci gomegamatchers-docker-image
-bosh-bootloader-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci bosh-bootloader-docker-image
-bosh-test-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci bosh-test-docker-image
+minimal-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci minimal-docker-image
+vagrant-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci vagrant-docker-image
 mega-ci-unit-tests: concourse.check https://mega.ci.cf-app.com mega-ci mega-ci-unit-tests
+deployment-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci deployment-docker-image
+golang-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci golang-docker-image
+bosh-bootloader-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci bosh-bootloader-docker-image
 
