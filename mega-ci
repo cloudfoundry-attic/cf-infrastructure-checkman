@@ -4,5 +4,4 @@ vagrant-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci vagrant
 mega-ci-unit-tests: concourse.check https://mega.ci.cf-app.com mega-ci mega-ci-unit-tests
 deployment-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci deployment-docker-image
 golang-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci golang-docker-image
-bosh-bootloader-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci bosh-bootloader-docker-image
 
