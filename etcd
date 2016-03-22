@@ -1,5 +1,6 @@
 #- etcd
 check-git-submodules: concourse.check https://mega.ci.cf-app.com etcd check-git-submodules
+test-etcd-metrics-server: concourse.check https://mega.ci.cf-app.com etcd test-etcd-metrics-server
 test-etcd: concourse.check https://mega.ci.cf-app.com etcd test-etcd
 create-final-release: concourse.check https://mega.ci.cf-app.com etcd create-final-release
 merge-master-into-develop: concourse.check https://mega.ci.cf-app.com etcd merge-master-into-develop
