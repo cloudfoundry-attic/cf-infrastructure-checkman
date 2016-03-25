@@ -1,7 +1,7 @@
 #- misc
-deployment-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci deployment-docker-image
-golang-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci golang-docker-image
-minimal-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci minimal-docker-image
-vagrant-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci vagrant-docker-image
 mega-ci-unit-tests: concourse.check https://mega.ci.cf-app.com mega-ci mega-ci-unit-tests
+minimal-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci minimal-docker-image
+golang-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci golang-docker-image
+deployment-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci deployment-docker-image
+vagrant-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci vagrant-docker-image
 
