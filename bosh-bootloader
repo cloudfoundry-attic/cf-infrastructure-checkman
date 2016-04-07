@@ -1,3 +1,4 @@
 #- bosh-bootloader
 test-bosh-bootloader: concourse.check https://mega.ci.cf-app.com bosh-bootloader test-bosh-bootloader
+integration-tests: concourse.check https://mega.ci.cf-app.com bosh-bootloader integration-tests
 
