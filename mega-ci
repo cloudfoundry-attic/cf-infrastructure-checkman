@@ -1,4 +1,4 @@
-#- misc
+#- mega-ci
 minimal-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci minimal-docker-image
 golang-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci golang-docker-image
 deployment-docker-image: concourse.check https://mega.ci.cf-app.com mega-ci deployment-docker-image
