@@ -6,7 +6,6 @@ deploy-bosh-lite-manifests: concourse.check https://mega.ci.cf-app.com etcd depl
 deploy-aws-manifests: concourse.check https://mega.ci.cf-app.com etcd deploy-aws-manifests
 deploy-with-cf: concourse.check https://mega.ci.cf-app.com etcd deploy-with-cf
 deploy-with-diego: concourse.check https://mega.ci.cf-app.com etcd deploy-with-diego
-test-with-cf: concourse.check https://mega.ci.cf-app.com etcd test-with-cf
 test-with-diego: concourse.check https://mega.ci.cf-app.com etcd test-with-diego
 delete-deployments: concourse.check https://mega.ci.cf-app.com etcd delete-deployments
 create-final-release: concourse.check https://mega.ci.cf-app.com etcd create-final-release

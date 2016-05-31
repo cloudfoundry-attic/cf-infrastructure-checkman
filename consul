@@ -6,7 +6,6 @@ test-confab: concourse.check https://mega.ci.cf-app.com consul test-confab
 test-consul: concourse.check https://mega.ci.cf-app.com consul test-consul
 deploy-with-cf: concourse.check https://mega.ci.cf-app.com consul deploy-with-cf
 deploy-with-diego: concourse.check https://mega.ci.cf-app.com consul deploy-with-diego
-test-with-cf: concourse.check https://mega.ci.cf-app.com consul test-with-cf
 test-with-diego: concourse.check https://mega.ci.cf-app.com consul test-with-diego
 delete-deployments: concourse.check https://mega.ci.cf-app.com consul delete-deployments
 create-final-release: concourse.check https://mega.ci.cf-app.com consul create-final-release
