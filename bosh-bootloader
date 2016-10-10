@@ -3,3 +3,9 @@ test-bosh-bootloader: concourse.check https://mega.ci.cf-app.com bosh-bootloader
 integration-tests: concourse.check https://mega.ci.cf-app.com bosh-bootloader integration-tests
 concourse-integration-tests: concourse.check https://mega.ci.cf-app.com bosh-bootloader concourse-integration-tests
 
+#- final-release
+major: concourse.check https://mega.ci.cf-app.com bosh-bootloader major
+minor: concourse.check https://mega.ci.cf-app.com bosh-bootloader minor
+patch: concourse.check https://mega.ci.cf-app.com bosh-bootloader patch
+github-release: concourse.check https://mega.ci.cf-app.com bosh-bootloader github-release
+

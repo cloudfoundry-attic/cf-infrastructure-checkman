@@ -12,3 +12,6 @@ delete-deployments: concourse.check https://mega.ci.cf-app.com etcd delete-deplo
 create-final-release: concourse.check https://mega.ci.cf-app.com etcd create-final-release
 merge-master-into-develop: concourse.check https://mega.ci.cf-app.com etcd merge-master-into-develop
 
+#- cleanup
+delete-etcd-deployments: concourse.check https://mega.ci.cf-app.com etcd delete-etcd-deployments
+
