@@ -9,3 +9,7 @@ minor: concourse.check https://mega.ci.cf-app.com bosh-bootloader minor
 patch: concourse.check https://mega.ci.cf-app.com bosh-bootloader patch
 github-release: concourse.check https://mega.ci.cf-app.com bosh-bootloader github-release
 
+#- release-updates
+build-compiled-bosh-release: concourse.check https://mega.ci.cf-app.com bosh-bootloader build-compiled-bosh-release
+update-release-constants: concourse.check https://mega.ci.cf-app.com bosh-bootloader update-release-constants
+
