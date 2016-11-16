@@ -1,12 +1,15 @@
 #- etcd
 check-git-submodules: concourse.check https://mega.ci.cf-app.com etcd check-git-submodules
 test-etcd-metrics-server: concourse.check https://mega.ci.cf-app.com etcd test-etcd-metrics-server
+compile-etcd-develop: concourse.check https://mega.ci.cf-app.com etcd compile-etcd-develop
 test-etcd: concourse.check https://mega.ci.cf-app.com etcd test-etcd
+test-etcd-turbulence: concourse.check https://mega.ci.cf-app.com etcd test-etcd-turbulence
 deploy-bosh-lite-manifests: concourse.check https://mega.ci.cf-app.com etcd deploy-bosh-lite-manifests
 deploy-aws-manifests: concourse.check https://mega.ci.cf-app.com etcd deploy-aws-manifests
 deploy-with-cf: concourse.check https://mega.ci.cf-app.com etcd deploy-with-cf
 deploy-with-diego: concourse.check https://mega.ci.cf-app.com etcd deploy-with-diego
 test-with-diego: concourse.check https://mega.ci.cf-app.com etcd test-with-diego
+test-cf-tls-upgrade: concourse.check https://mega.ci.cf-app.com etcd test-cf-tls-upgrade
 delete-deployments: concourse.check https://mega.ci.cf-app.com etcd delete-deployments
 create-final-release: concourse.check https://mega.ci.cf-app.com etcd create-final-release
 merge-master-into-develop: concourse.check https://mega.ci.cf-app.com etcd merge-master-into-develop
@@ -14,6 +17,6 @@ merge-master-into-develop: concourse.check https://mega.ci.cf-app.com etcd merge
 #- cleanup
 delete-etcd-deployments: concourse.check https://mega.ci.cf-app.com etcd delete-etcd-deployments
 
-#- misc
-test-cf-tls-upgrade: concourse.check https://mega.ci.cf-app.com etcd test-cf-tls-upgrade
+#- compile-dependencies
+compile-consul-release: concourse.check https://mega.ci.cf-app.com etcd compile-consul-release
 

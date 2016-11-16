@@ -4,6 +4,9 @@ deploy-bosh-lite-manifests: concourse.check https://mega.ci.cf-app.com consul de
 deploy-aws-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-aws-manifests
 test-confab: concourse.check https://mega.ci.cf-app.com consul test-confab
 test-consul: concourse.check https://mega.ci.cf-app.com consul test-consul
+test-consul-with-turbulence: concourse.check https://mega.ci.cf-app.com consul test-consul-with-turbulence
+test-consul-windows: concourse.check https://mega.ci.cf-app.com consul test-consul-windows
+test-consul-windows-with-turbulence: concourse.check https://mega.ci.cf-app.com consul test-consul-windows-with-turbulence
 deploy-with-cf: concourse.check https://mega.ci.cf-app.com consul deploy-with-cf
 deploy-with-diego: concourse.check https://mega.ci.cf-app.com consul deploy-with-diego
 test-with-diego: concourse.check https://mega.ci.cf-app.com consul test-with-diego
@@ -13,4 +16,5 @@ merge-master-into-develop: concourse.check https://mega.ci.cf-app.com consul mer
 
 #- cleanup
 delete-consul-deployments: concourse.check https://mega.ci.cf-app.com consul delete-consul-deployments
+delete-consul-windows-deployments: concourse.check https://mega.ci.cf-app.com consul delete-consul-windows-deployments
 
