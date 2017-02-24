@@ -1,20 +1,20 @@
 #- consul
-check-git-submodules: concourse.check https://mega.ci.cf-app.com consul check-git-submodules
-deploy-bosh-lite-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-bosh-lite-manifests
-deploy-aws-manifests: concourse.check https://mega.ci.cf-app.com consul deploy-aws-manifests
-test-confab: concourse.check https://mega.ci.cf-app.com consul test-confab
-test-consul: concourse.check https://mega.ci.cf-app.com consul test-consul
-test-consul-with-turbulence: concourse.check https://mega.ci.cf-app.com consul test-consul-with-turbulence
-test-consul-windows: concourse.check https://mega.ci.cf-app.com consul test-consul-windows
-test-consul-windows-with-turbulence: concourse.check https://mega.ci.cf-app.com consul test-consul-windows-with-turbulence
-deploy-with-cf: concourse.check https://mega.ci.cf-app.com consul deploy-with-cf
-deploy-with-diego: concourse.check https://mega.ci.cf-app.com consul deploy-with-diego
-test-with-diego: concourse.check https://mega.ci.cf-app.com consul test-with-diego
-delete-deployments: concourse.check https://mega.ci.cf-app.com consul delete-deployments
-create-final-release: concourse.check https://mega.ci.cf-app.com consul create-final-release
-merge-master-into-develop: concourse.check https://mega.ci.cf-app.com consul merge-master-into-develop
+check-git-submodules: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul check-git-submodules
+test-confab: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul test-confab
+consats-linux: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul consats-linux
+consats-linux-turbulence: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul consats-linux-turbulence
+consats-windows: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul consats-windows
+consats-windows-turbulence: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul consats-windows-turbulence
+deploy-with-cf: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul deploy-with-cf
+deploy-with-diego: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul deploy-with-diego
+run-cats: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul run-cats
+delete-cf-deployments: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul delete-cf-deployments
+create-final-release: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul create-final-release
+merge-master-into-develop: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul merge-master-into-develop
+deploy-bosh-lite-manifests: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul deploy-bosh-lite-manifests
+deploy-aws-manifests: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul deploy-aws-manifests
 
 #- cleanup
-delete-consul-deployments: concourse.check https://mega.ci.cf-app.com consul delete-consul-deployments
-delete-consul-windows-deployments: concourse.check https://mega.ci.cf-app.com consul delete-consul-windows-deployments
+delete-consats-linux-deployments: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul delete-consats-linux-deployments
+delete-consats-windows-deployments: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 consul delete-consats-windows-deployments
 

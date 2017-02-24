@@ -2,10 +2,17 @@
 
 function main() {
   local pipelines
-  pipelines=("bootload-mega-ci" "bosh-bootloader" "bosh-test" "consul" "check-a-record" "destiny" "etcd" "gomegamatchers" "mega-ci")
+  pipelines=("consul" "check-a-record" "bosh-test" "gomegamatchers" "infrastructure-ci" "dockerfiles" "bosh-bootloader")
 
   for pipeline in ${pipelines[@]}; do
-    fly -t mega checklist -p "${pipeline}" > "${pipeline}"
+    fly -t wings checklist -p "${pipeline}" > "${pipeline}"
+  done
+
+  local pipelines
+  pipelines=("bootload-mega-ci" "destiny" "etcd")
+
+  for pipeline in ${pipelines[@]}; do
+    fly0.7 -t mega checklist -p "${pipeline}" > "${pipeline}"
   done
 }
 

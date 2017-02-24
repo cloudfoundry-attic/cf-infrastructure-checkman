@@ -1,0 +1,6 @@
+#- dockerfiles
+minimal-docker-image: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 dockerfiles minimal-docker-image
+golang-docker-image: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 dockerfiles golang-docker-image
+deployment-docker-image: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 dockerfiles deployment-docker-image
+vagrant-docker-image: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 dockerfiles vagrant-docker-image
+

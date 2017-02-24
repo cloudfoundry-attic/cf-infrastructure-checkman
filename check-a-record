@@ -1,3 +1,3 @@
 #- check-a-record
-test-check-a-record: concourse.check https://mega.ci.cf-app.com check-a-record test-check-a-record
+test-check-a-record: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 check-a-record test-check-a-record
 

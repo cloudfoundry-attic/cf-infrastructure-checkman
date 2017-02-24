@@ -1,16 +1,16 @@
 #- bosh-bootloader
-test-bosh-bootloader: concourse.check https://mega.ci.cf-app.com bosh-bootloader test-bosh-bootloader
-aws-integration-tests: concourse.check https://mega.ci.cf-app.com bosh-bootloader aws-integration-tests
-gcp-integration-tests: concourse.check https://mega.ci.cf-app.com bosh-bootloader gcp-integration-tests
-concourse-integration-tests: concourse.check https://mega.ci.cf-app.com bosh-bootloader concourse-integration-tests
+test-bosh-bootloader: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader test-bosh-bootloader
+aws-integration-tests: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader aws-integration-tests
+gcp-integration-tests: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader gcp-integration-tests
+concourse-integration-tests: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader concourse-integration-tests
 
 #- final-release
-major: concourse.check https://mega.ci.cf-app.com bosh-bootloader major
-minor: concourse.check https://mega.ci.cf-app.com bosh-bootloader minor
-patch: concourse.check https://mega.ci.cf-app.com bosh-bootloader patch
-github-release: concourse.check https://mega.ci.cf-app.com bosh-bootloader github-release
+major: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader major
+minor: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader minor
+patch: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader patch
+github-release: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader github-release
 
 #- release-updates
-build-compiled-bosh-release: concourse.check https://mega.ci.cf-app.com bosh-bootloader build-compiled-bosh-release
-update-release-constants: concourse.check https://mega.ci.cf-app.com bosh-bootloader update-release-constants
+build-compiled-bosh-release: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader build-compiled-bosh-release
+update-release-constants: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader update-release-constants
 
