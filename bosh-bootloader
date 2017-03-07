@@ -9,8 +9,3 @@ major: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-in
 minor: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader minor
 patch: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader patch
 github-release: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader github-release
-
-#- release-updates
-build-compiled-bosh-release: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader build-compiled-bosh-release
-update-release-constants: concourse.check https://p-concourse.wings.cf-app.com system-team-infra-infra1-08f1 bosh-bootloader update-release-constants
-
